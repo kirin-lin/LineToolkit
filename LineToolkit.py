@@ -3,7 +3,7 @@ import requests
 """
 單純發送 Line Notify 文字訊息
 """
-def send(token, msg):
+def notify(token, msg):
 
     url = "https://notify-api.line.me/api/notify"
     headers = {

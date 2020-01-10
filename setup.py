@@ -5,7 +5,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setuptools.setup(
     name="LineToolkit",
-    version="0.0.1",
+    version="0.0.2",
     author="Kirin Lin",
     author_email="chilin.lin@gmail.com",
     description="Some simple tools for Line Notify API",
